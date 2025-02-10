@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "shiba_inu",
@@ -12,8 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" data-bs-theme="dark">
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
