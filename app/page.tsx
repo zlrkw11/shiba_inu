@@ -14,16 +14,16 @@ export default function Home() {
         <p className="lead">For students, by students</p>
       </section>
       <section
-        id="tutors"
+        id="about"
         className="h-screen flex flex-col items-center justify-center"
       >
-        <h1 className="display-1 fw-bold">Tutors</h1>
+        <h1 className="display-1 fw-bold">about us</h1>
       </section>
       <section
-        id="book"
+        id="order"
         className="h-screen flex flex-col items-center justify-center"
       >
-        <h1 className="display-1 fw-bold">Book Now!</h1>
+        <h1 className="display-1 fw-bold">order now!</h1>
       </section>{" "}
       <section
         id="contact"

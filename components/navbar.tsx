@@ -18,17 +18,24 @@ const Navbar = () => {
           expanded ? "flex-col" : "hidden"
         } md:flex md:flex-row items-center justify-between shadow-md mb-2`}
       >
-        <Link href="/" className="text-decoration-none hover:text-white">
+        <Link
+          href="/"
+          className="text-decoration-none hover:text-black text-orange-500"
+        >
           Home
         </Link>
-        <Link href="/tutors" className="text-decoration-none hover:text-white">
-          Tutors
+        <Link
+          href="/tutors"
+          className="text-decoration-none hover:text-black text-orange-500"
+        >
+          Order
         </Link>
-        <Link href="/book" className="text-decoration-none hover:text-white">
-          Book now
-        </Link>
-        <Link href="/contact" className="text-decoration-none hover:text-white">
-          Contact
+
+        <Link
+          href="/contact"
+          className="text-decoration-none hover:text-black text-orange-500"
+        >
+          Contact Us
         </Link>
       </div>
     </nav>
