@@ -3,3 +3,20 @@
 @tailwind utilities;
 
 
+.bg-scroll {
+   /* Path to your long image */
+  background-position: center center;  /* Keeps the background centered */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the background covers the entire viewport */
+  background-attachment: fixed;  /* This keeps the background fixed during scrolling */
+  min-height: 100vh; /* Ensures it fills at least the screen height */
+  position: relative;
+}
+
+/* Apply some additional padding to ensure content isn't blocked by the fixed background */
+.main-content {
+  padding: 50px;
+  z-index: 10;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+}

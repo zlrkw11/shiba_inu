@@ -16,7 +16,7 @@ const Navbar = () => {
       <div
         className={`w-full ${expanded ? "block" : "hidden"} flex ${
           expanded ? "flex-col" : "hidden"
-        } md:flex-row items-center justify-between shadow-md mb-2`}
+        } md:flex md:flex-row items-center justify-between shadow-md mb-2`}
       >
         <Link href="/" className="text-decoration-none hover:text-white">
           Home
@@ -26,6 +26,9 @@ const Navbar = () => {
         </Link>
         <Link href="/book" className="text-decoration-none hover:text-white">
           Book now
+        </Link>
+        <Link href="/contact" className="text-decoration-none hover:text-white">
+          Contact
         </Link>
       </div>
     </nav>
