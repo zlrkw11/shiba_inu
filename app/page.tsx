@@ -1,6 +1,7 @@
 import "./globals.css";
 import Image from "next/image";
 import doge from "./doge-removebg-preview.png";
+import logo from "./logo.png";
 export default function Home() {
   return (
     <main className="bg-scroll flex flex-col items-center justify-center min-h-screen">
@@ -17,13 +18,17 @@ export default function Home() {
         id="about"
         className="h-screen flex flex-col items-center justify-center"
       >
-        <h1 className="display-1 fw-bold">about us</h1>
+        <h1 className="display-1 fw-bold">About us</h1>
+        <p className="w-[50%] text-orange-500 flex">
+          We are not some huge company that has 100+ shops. Just 2 friends
+          wanting to make the life of students easier and more affordable.
+        </p>
       </section>
       <section
         id="order"
         className="h-screen flex flex-col items-center justify-center"
       >
-        <h1 className="display-1 fw-bold">order now!</h1>
+        <h1 className="display-1 fw-bold">Order now!</h1>
       </section>{" "}
       <section
         id="contact"
@@ -37,7 +42,7 @@ export default function Home() {
         <p>Address: boxhill central melbourne VIC</p>
       </section>
       <footer className="bg-orange-400 text-white w-full p-4 text-center">
-        © Copyright 2025 ShibaInu | 434 152 176 | shibainututoring@gmail.com
+        © Copyright 2025 ShibaInu | 434 152 176 | shibainuxxx@gmail.com
       </footer>
     </main>
   );

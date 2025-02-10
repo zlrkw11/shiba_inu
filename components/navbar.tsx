@@ -16,7 +16,7 @@ const Navbar = () => {
       <div
         className={`w-full ${expanded ? "block" : "hidden"} flex ${
           expanded ? "flex-col" : "hidden"
-        } md:flex md:flex-row items-center justify-between shadow-md mb-2`}
+        } md:flex md:flex-row items-center justify-between shadow-md pt-2 pb-2`}
       >
         <Link
           href="/"
