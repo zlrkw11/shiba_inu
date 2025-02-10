@@ -1,7 +1,7 @@
 import "./globals.css";
 import Image from "next/image";
 import doge from "./doge-removebg-preview.png";
-import logo from "./logo.png";
+
 export default function Home() {
   return (
     <main className="bg-scroll flex flex-col items-center justify-center min-h-screen">
@@ -16,10 +16,10 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="h-screen flex flex-col items-center justify-center"
+        className="h-screen flex flex-col items-center justify-center bg-[url('/obg.png')] bg-contain bg-no-repeat bg-center"
       >
         <h1 className="display-1 fw-bold">About us</h1>
-        <p className="w-[50%] text-orange-500 flex">
+        <p className="w-[50%] font-serif font-bold text-black flex">
           We are not some huge company that has 100+ shops. Just 2 friends
           wanting to make the life of students easier and more affordable.
         </p>
