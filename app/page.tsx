@@ -1,6 +1,7 @@
 import "./globals.css";
 import Image from "next/image";
 import doge from "./doge-removebg-preview.png";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
           We are not some huge company that has 100+ shops. Just 2 friends
           wanting to make the life of students easier and more affordable.
         </p>
+        <Button variant="outline" size="lg" className="mb-4">
+          Know more about us!
+        </Button>
       </section>
       <section
         id="order"
