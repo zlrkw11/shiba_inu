@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-
+import { Button } from "./ui/button";
 const Navbar = () => {
   const [expanded, setExpanded] = useState(false);
   const toggleNav = () => {
@@ -11,7 +11,14 @@ const Navbar = () => {
   return (
     <nav className="">
       <div className="sm:hidden">
-        <button onClick={toggleNav}>expand</button>
+        <Button
+          onClick={toggleNav}
+          variant="outline"
+          size="lg"
+          className="mt-[200px] font-bold"
+        >
+          expand
+        </Button>
       </div>
       <div
         className={`w-full ${expanded ? "block" : "hidden"} flex ${
