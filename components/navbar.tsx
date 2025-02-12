@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="sm:hidden">
+      <div className="sm:hidden flex">
         <Button
           onClick={toggleNav}
           variant="outline"
@@ -26,20 +26,26 @@ const Navbar = () => {
         } md:flex md:flex-row items-center gap-4 pl-4 shadow-md pt-2 pb-2`}
       >
         <Link
-          href="/"
+          href="#home"
           className="text-decoration-none hover:text-black text-orange-500"
         >
           Home
         </Link>
         <Link
-          href="/tutors"
+          href="#about"
+          className="text-decoration-none hover:text-black text-orange-500"
+        >
+          About
+        </Link>
+        <Link
+          href="#order"
           className="text-decoration-none hover:text-black text-orange-500"
         >
           Order
         </Link>
 
         <Link
-          href="/contact"
+          href="#contact"
           className="text-decoration-none hover:text-black text-orange-500"
         >
           Contact Us
