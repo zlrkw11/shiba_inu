@@ -15,7 +15,7 @@ const Navbar = () => {
           onClick={toggleNav}
           variant="outline"
           size="lg"
-          className="mt-[200px] font-bold"
+          className="m-2 font-bold text-orange-500"
         >
           expand
         </Button>
